@@ -1,13 +1,14 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import lookBook from "../assets/lookBook.png";
+import lookbook from "../assets/lookbook.png";
+import styles from "../styles/NavBar.module.css"
 
 const NavBar = () => {
   return (
-    <Navbar expand="md" fixed="top">
+    <Navbar className={styles.NavBar} expand="md" fixed="top">
       <Container>
         <Navbar.Brand>
-          <img src={lookBook} alt="lookBook" height="45" />
+          <img src={lookbook} alt="lookbook" height="50" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
