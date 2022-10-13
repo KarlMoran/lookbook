@@ -8,8 +8,12 @@
     box-sizing: border-box;
 }
 
+.Main {
+    padding-top: 81px;
+}
+
 a {
-    color: #a58df4;
+    color: #8a8a8c;
     transition: color ease-in-out 0.3s;
 }
 
@@ -23,7 +27,7 @@ a:hover i {
 }
 
 i {
-    color: #a58df4;
+    color: #8a8a8c;
     font-size: 1.6rem;
     padding: 7px;
     vertical-align: middle;
