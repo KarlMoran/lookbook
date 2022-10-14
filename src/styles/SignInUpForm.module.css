@@ -6,10 +6,11 @@
     background: #ffffff;
     border: 1px solid #f0f1f9;
     box-sizing: border-box;
-    border-radius: 2px;
+    border-radius: 3px;
     color: #59595a;
     text-align: center;
     padding: 10px;
+    margin-bottom: 12.5px;
 }
 
 .Header {
@@ -35,7 +36,7 @@
 }
 
 .Container {
-    padding: 30px 10px;
+    padding: 40px 10px;
 }
 
 .SignInCol {
