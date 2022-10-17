@@ -22,14 +22,26 @@ function App() {
       <Container className={styles.Main}>
         <Switch>
           <Route exact path="/" render={() => <PostsPage message="No result found, try again"/>} />
-          <Route exact path="/explore" render={() => <PostsPage 
-          message="No result found, try again or follow a user"
-          filter={`owner__followed__owner__profile=${profile_id}&`}
-          />} />
-          <Route exact path="/liked" render={() => <PostsPage 
-          message="No result found, try again or like a post"
-          filter={`likes__owner__profile=${profile_id}&ordering=-likes__created_at&`}
-          />} />
+          <Route
+            exact
+            path="/explore"
+            render={() => (
+              <PostsPage
+                message="No results found. Adjust the search keyword or follow a user."
+                filter={`owner__followed__owner__profile=${profile_id}&`}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/liked"
+            render={() => (
+              <PostsPage
+                message="No results found. Adjust the search keyword or like a post."
+                filter={`likes__owner__profile=${profile_id}&ordering=-likes__created_at&`}
+              />
+            )}
+          />
           <Route exact path="/signin" render={() => <SignInForm />} />
           <Route exact path="/signup" render={() => <SignUpForm />} />
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
