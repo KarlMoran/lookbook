@@ -21,8 +21,9 @@ function PostCreateForm() {
     title: "",
     content: "",
     image: "",
+    location: "",
   });
-  const { title, content, image } = postData;
+  const { title, content, image, location } = postData;
 
   const handleChange = (event) => {
     setPostData({
@@ -53,6 +54,15 @@ function PostCreateForm() {
         />
       </Form.Group>
       <Form.Group>
+        <Form.Label>Location</Form.Label>
+        <Form.Control
+          type="text"
+          name="location"
+          value={location}
+          onChange={handleChange}
+        />
+      </Form.Group>
+      <Form.Group>
         <Form.Label>Content</Form.Label>
         <Form.Control
           as="textarea"
@@ -62,7 +72,7 @@ function PostCreateForm() {
           onChange={handleChange}
         />
       </Form.Group>
-
+      <br></br>
       <Button
         className={`${btnStyles.Button} ${btnStyles.Blue}`}
         onClick={() => {}}
