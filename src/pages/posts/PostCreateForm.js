@@ -30,7 +30,7 @@ function PostCreateForm() {
     image: "",
     location: "",
   });
-  const { title, content, image, location } = postData;
+  const { title, content, image, location, } = postData;
 
   const handleChange = (event) => {
     setPostData({
