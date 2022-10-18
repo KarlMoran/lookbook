@@ -117,7 +117,7 @@ const Post = (props) => {
            target="_blank" 
            rel="noreferrer noopener"
            >
-            <i class="fas fa-location-dot"></i>
+            <i className="fas fa-location-dot"></i>
             </a>
         </div>
       </Card.Body>
