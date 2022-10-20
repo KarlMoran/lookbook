@@ -14,8 +14,8 @@ import ProfilePage from "./pages/profiles/ProfilePage";
 import UsernameForm from "./pages/profiles/UsernameForm";
 import UserPasswordForm from "./pages/profiles/UserPasswordForm";
 import ProfileEditForm from "./pages/profiles/ProfileEditForm";
-import LearnCreateForm from "./pages/learn/LearnCreateForm";
 import About from "./pages/About";
+import Learn from "./pages/Learn";
 
 
 function App() {
@@ -54,7 +54,6 @@ function App() {
           <Route exact path="/signin" render={() => <SignInForm />} />
           <Route exact path="/signup" render={() => <SignUpForm />} />
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
-          <Route exact path="/posts/create" render={() => <LearnCreateForm />} />
           <Route exact path="/posts/:id/edit" render={() => <PostEditForm />} />
           <Route exact path="/posts/:id" render={() => <PostPage />} />
           <Route exact path="/profiles/:id" render={() => <ProfilePage />} />
@@ -74,6 +73,7 @@ function App() {
             render={() => <ProfileEditForm />}
           />
           <Route exact path="/about" render={() => <About />} />
+          <Route exact path="/learn" render={() => <Learn />} />
           <Route render={() => <p>Page not found!</p>} />
         </Switch>
       </Container>

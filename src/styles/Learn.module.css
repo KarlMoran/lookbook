@@ -1,0 +1,29 @@
+.Content {
+    text-align: center;
+}
+
+.Content h2 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif 
+}
+
+.SocialIconsAlign {
+    display:inline-block;
+}
+
+.SocialIconsAlign a {
+    font-size: 175%;
+    padding: 0 5px;
+    color: #000000;
+}
+
+.SocialIconsAlign a:hover {
+    color: #060505;
+}
+
+/* FOOTNOTE */
+#Disclaimer {
+    font-size: 90%;
+}
+
