@@ -12,7 +12,7 @@ import { ProfileDataProvider } from "./contexts/ProfileDataContext";
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-    <CurrentUserProvider>
+      <CurrentUserProvider>
         <ProfileDataProvider>
           <App />
         </ProfileDataProvider>

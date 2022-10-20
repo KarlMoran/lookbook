@@ -23,7 +23,7 @@ const NavBar = () => {
       activeClassName={styles.Active}
       to="/posts/create"
     >
-      <i className="far fa-plus-square"></i>Add post
+      <i className="far fa-plus-square"></i>Add Photo
     </NavLink>
   );
 
@@ -68,6 +68,7 @@ const NavBar = () => {
       >
         <Avatar src={currentUser?.profile_image} text="Profile" height={40} />
       </NavLink>
+      
     </>
   );
   const loggedOutIcons = (
@@ -103,7 +104,7 @@ const NavBar = () => {
             <img src={lookbook} alt="lookbook" height="50" />
           </Navbar.Brand>
         </NavLink>
-        {currentUser && addPostIcon}
+        {currentUser && addPostIcon }
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded(!expanded)}
