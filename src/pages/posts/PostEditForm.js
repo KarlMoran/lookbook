@@ -38,7 +38,7 @@ function PostEditForm() {
 
         is_owner ? setPostData({ title, content, image, location }) : history.push("/");
       } catch (err) {
-        // console.log(err);
+        console.log(err);
       }
     };
 
@@ -78,7 +78,7 @@ function PostEditForm() {
       await axiosReq.put(`/posts/${id}/`, formData);
       history.push(`/posts/${id}`);
     } catch (err) {
-      // console.log(err);
+      console.log(err);
       if (err.response?.status !== 401) {
         setErrors(err.response?.data);
       }
@@ -102,31 +102,31 @@ function PostEditForm() {
         </Alert>
       ))}
 
-          <Form.Group>
-              <Form.Label>Location</Form.Label>
-              <Form.Control
-                  type="text"
-                  name="location"
-                  value={location}
-                  onChange={handleChange}
-              />
-          </Form.Group>
-          {errors?.location?.map((message, idx) => (
-              <Alert variant="warning" key={idx}>
-                  {message}
-              </Alert>
-          ))}
+      <Form.Group>
+        <Form.Label>Location</Form.Label>
+          <Form.Control
+            type="text"
+            name="location"
+            value={location}
+            onChange={handleChange}
+          />
+      </Form.Group>
+      {errors?.location?.map((message, idx) => (
+        <Alert variant="warning" key={idx}>
+          {message}
+        </Alert>
+      ))}
 
-          <Form.Group>
-              <Form.Label>Content</Form.Label>
-              <Form.Control
-                  as="textarea"
-                  rows={6}
-                  name="content"
-                  value={content}
-                  onChange={handleChange}
-              />
-          </Form.Group>
+      <Form.Group>
+        <Form.Label>Content</Form.Label>
+          <Form.Control
+            as="textarea"
+            rows={6}
+            name="content"
+            value={content}
+            onChange={handleChange}
+          />
+      </Form.Group>
       {errors?.content?.map((message, idx) => (
         <Alert variant="warning" key={idx}>
           {message}
