@@ -11,15 +11,15 @@ h5 {
     margin: 0 0;
 }
 
-.Heart {
-    color: #ff0000;
+.Star {
+    color: #fff700;
 }
 
-.Heart:hover {
-    color: #000000;
+.Star:hover {
+    color: #ff910b;
 }
 
-.HeartOutline:hover {
-    color: #ff0000;
+.StarOutline:hover {
+    color: #fff700;
 }
 

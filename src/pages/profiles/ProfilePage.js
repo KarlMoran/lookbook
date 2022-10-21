@@ -68,7 +68,7 @@ function ProfilePage() {
         <Col lg={3} className="text-lg-left">
           <Image
             className={styles.ProfileImage}
-            roundedCircle
+            // roundedCircle
             src={profile?.image}
           />
         </Col>
