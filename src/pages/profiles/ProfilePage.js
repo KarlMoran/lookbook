@@ -24,7 +24,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import Post from "../posts/Post";
 import { fetchMoreData } from "../../utils/utils";
 import Close from "../../assets/close.png";
-import {ProfileEditDropdown} from "../../components/MoreDropdown";
+import { ProfileEditDropdown } from "../../components/MoreDropdown";
 
 
 function ProfilePage() {
@@ -60,6 +60,8 @@ function ProfilePage() {
     };
     fetchData();
   }, [id, setProfileData]);
+
+  // console.log(profile, '<===profile')
 
   const mainProfile = (
     <>
