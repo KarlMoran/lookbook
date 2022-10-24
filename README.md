@@ -22,8 +22,7 @@ The repository for the DRF-API associated with this project is available <a href
 * The Navigation bar has a number of links when signIn  'Home', 'Add post', 'Explore', 'Star', 'Learn', 'About'and 'SignIn/ SignUp'.
 * Certain links appear when you signIn, you get full access when you craete an account. 
 
-<img width="1158" alt="Nav SignOut" src="https://user-images.githubusercontent.com/92300013/
-197337650-86797bfe-6b63-421d-b419-14216b9f5611.png">
+<img width="1406" alt="Nav SignOut" src="https://user-images.githubusercontent.com/92300013/197505341-0c922b06-a1ad-4b22-b76f-691531105aa0.png">
 
 
 <img width="1224" alt="Nav SignIN" src="https://user-images.githubusercontent.com/92300013/197337394-d6c8afa3-515b-459a-9e75-f29d23087529.png">
