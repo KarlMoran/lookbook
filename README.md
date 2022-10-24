@@ -19,7 +19,7 @@ The repository for the DRF-API associated with this project is available <a href
 
 ## Navigation Bar
 * This featured appears throughout the page,it allows users to easily navigate through the site.
-* The Navigation bar has a number of links for 'Home', 'Explore', 'Star', 'Learn', 'About'and 'SignIn/ SignUp'.
+* The Navigation bar has a number of links when signIn  'Home', 'Add post', 'Explore', 'Star', 'Learn', 'About'and 'SignIn/ SignUp'.
 * Certain links appear when you signIn, you get full access when you craete an account. 
 
 <img width="1158" alt="Screenshot 2022-10-22 at 12 56 24" src="https://user-images.githubusercontent.com/92300013/197337650-86797bfe-6b63-421d-b419-14216b9f5611.png">
@@ -35,3 +35,27 @@ The repository for the DRF-API associated with this project is available <a href
 * The SignIn / SignUp button will redirect user to the SignIn page / SignUp page if user don't have a account.
 
 <img width="1158" alt="Screenshot 2022-10-22 at 13 02 12" src="https://user-images.githubusercontent.com/92300013/197337956-fe8dc545-510d-465a-a332-6950e96686d9.png">
+
+<hr />
+
+## About 
+* The About page gives you an insight into LookBook and what it is about. 
+* The About page is only visable when you are signedOut.
+
+<img width="1406" alt="Screenshot 2022-10-24 at 10 04 58" src="https://user-images.githubusercontent.com/92300013/197489887-0e1d7ada-8a64-4191-a3c8-ac2f08dfb2d5.png">
+
+<hr />
+
+## Explore 
+* The Explore page shows you your followers posts most recent photos
+
+<hr />
+
+## Add post
+* Add post allows user to post photos up to the wall.
+* Add post allows user to add a Title , Location and content to thier posts.
+
+<img width="1406" alt="Screenshot 2022-10-24 at 10 20 44" src="https://user-images.githubusercontent.com/92300013/197493041-560f56c0-7d64-4bf5-9556-f2fa5ff79efc.png">
+
+## Liked 
+* The Liked post shows you posts that you have liked :star:
