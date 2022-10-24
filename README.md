@@ -40,7 +40,7 @@ The repository for the DRF-API associated with this project is available <a href
 
 <hr />
 
-## About :bust_in_silhouett:
+## About :bust_in_silhouette:
 * The About page gives you an insight into LookBook and what it is about. 
 * The About page is only visable when you are signedOut.
 
