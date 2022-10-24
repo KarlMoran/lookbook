@@ -11,7 +11,7 @@ The repository for the DRF-API associated with this project is available <a href
 
 <hr />
 
-<img width="1158" alt="Screenshot 2022-10-21 at 13 53 03" src="https://user-images.githubusercontent.com/92300013/197200446-952a5766-6e3b-49a8-ad4f-c883445c37db.png">
+<img width="1158" alt="responsive screen" src="https://user-images.githubusercontent.com/92300013/197200446-952a5766-6e3b-49a8-ad4f-c883445c37db.png">
 
 <hr />
 
@@ -22,9 +22,11 @@ The repository for the DRF-API associated with this project is available <a href
 * The Navigation bar has a number of links when signIn  'Home', 'Add post', 'Explore', 'Star', 'Learn', 'About'and 'SignIn/ SignUp'.
 * Certain links appear when you signIn, you get full access when you craete an account. 
 
-<img width="1158" alt="Screenshot 2022-10-22 at 12 56 24" src="https://user-images.githubusercontent.com/92300013/197337650-86797bfe-6b63-421d-b419-14216b9f5611.png">
+<img width="1158" alt="Nav SignOut" src="https://user-images.githubusercontent.com/92300013/
+197337650-86797bfe-6b63-421d-b419-14216b9f5611.png">
 
-<img width="1224" alt="Screenshot 2022-10-22 at 12 49 48" src="https://user-images.githubusercontent.com/92300013/197337394-d6c8afa3-515b-459a-9e75-f29d23087529.png">
+
+<img width="1224" alt="Nav SignIN" src="https://user-images.githubusercontent.com/92300013/197337394-d6c8afa3-515b-459a-9e75-f29d23087529.png">
 
 <hr />
 
@@ -34,7 +36,7 @@ The repository for the DRF-API associated with this project is available <a href
 * The page also includes a list off most popular portifollos, where you can see who is the most popular.
 * The SignIn / SignUp button will redirect user to the SignIn page / SignUp page if user don't have a account.
 
-<img width="1158" alt="Screenshot 2022-10-22 at 13 02 12" src="https://user-images.githubusercontent.com/92300013/197337956-fe8dc545-510d-465a-a332-6950e96686d9.png">
+<img width="1158" alt="Home Page" src="https://user-images.githubusercontent.com/92300013/197337956-fe8dc545-510d-465a-a332-6950e96686d9.png">
 
 <hr />
 
@@ -42,7 +44,7 @@ The repository for the DRF-API associated with this project is available <a href
 * The About page gives you an insight into LookBook and what it is about. 
 * The About page is only visable when you are signedOut.
 
-<img width="1406" alt="Screenshot 2022-10-24 at 10 04 58" src="https://user-images.githubusercontent.com/92300013/197489887-0e1d7ada-8a64-4191-a3c8-ac2f08dfb2d5.png">
+<img width="1406" alt="About page" src="https://user-images.githubusercontent.com/92300013/197489887-0e1d7ada-8a64-4191-a3c8-ac2f08dfb2d5.png">
 
 <hr />
 
@@ -55,7 +57,39 @@ The repository for the DRF-API associated with this project is available <a href
 * Add post allows user to post photos up to the wall.
 * Add post allows user to add a Title , Location and content to thier posts.
 
-<img width="1406" alt="Screenshot 2022-10-24 at 10 20 44" src="https://user-images.githubusercontent.com/92300013/197493041-560f56c0-7d64-4bf5-9556-f2fa5ff79efc.png">
+<img width="1406" alt="Add post" src="https://user-images.githubusercontent.com/92300013/197493041-560f56c0-7d64-4bf5-9556-f2fa5ff79efc.png">
 
-## Liked 
+<hr />
+
+## Liked :star:
 * The Liked post shows you posts that you have liked :star:
+* Posts can be liked by clicking the :star:
+
+<hr />
+
+## Learn 
+* This section just gives people advise on starting photography. 
+* What you need to know before starting off. 
+
+* I would have liked to added to the learn page by adding posts/learning material by uploading 
+them through a ADD button. Linking that button up to pst onto the Learn page. 
+
+<img width="1406" alt="Learn page" src="https://user-images.githubusercontent.com/92300013/197499301-a7fd3825-d75e-4961-bcd9-9e51fdd74e49.png">
+
+<hr />
+
+## SignUp Page 
+* The SignUp page allows users to create an acccount by giving details.
+* A Username, Password and a confirmed Password is required to create an account.
+* If you already have an account you can link the SignIn link at top of page or at bottom
+
+<img width="1406" alt="SignUp Page" src="https://user-images.githubusercontent.com/92300013/197499665-6dec9e8c-1bf5-4273-8edb-222c62baed93.png">
+
+<hr />
+
+## SignIn page 
+* User that have an account can signIn by entering there details.
+
+<img width="1406" alt="SignUp Page" src="https://user-images.githubusercontent.com/92300013/197499665-6dec9e8c-1bf5-4273-8edb-222c62baed93.png">
+
+<hr />
