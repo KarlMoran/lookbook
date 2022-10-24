@@ -30,7 +30,7 @@ The repository for the DRF-API associated with this project is available <a href
 
 <hr />
 
-## Home Page 
+## Home Page :house:
 * The home page shows all recent posts made by follow memeber of the site.
 * A search bar is included , where users can search for portifollos or photos.
 * The page also includes a list off most popular portifollos, where you can see who is the most popular.
@@ -40,7 +40,7 @@ The repository for the DRF-API associated with this project is available <a href
 
 <hr />
 
-## About 
+## About :bust_in_silhouett:
 * The About page gives you an insight into LookBook and what it is about. 
 * The About page is only visable when you are signedOut.
 
@@ -48,7 +48,7 @@ The repository for the DRF-API associated with this project is available <a href
 
 <hr />
 
-## Explore 
+## Explore :camera:
 * The Explore page shows you your followers posts most recent photos
 
 <hr />
@@ -67,7 +67,7 @@ The repository for the DRF-API associated with this project is available <a href
 
 <hr />
 
-## Learn 
+## Learn :notebook:
 * This section just gives people advise on starting photography. 
 * What you need to know before starting off. 
 
