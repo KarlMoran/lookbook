@@ -59,7 +59,6 @@ function About() {
       <h2>
         <strong>Social Media:</strong>
       </h2>
-      <hr />
       <Row className={styles.SocialIconsAlign}>
         <a
           href="https://facebook.com/"

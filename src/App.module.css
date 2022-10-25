@@ -1,6 +1,6 @@
 .App {
     font-family: "DM Sans", sans-serif;
-    background-color: #f8f8f8;
+    background-color: #efd3d7;
     min-height: 100vh;
 }
 
@@ -13,10 +13,10 @@
 }
 
 .Content {
-    background-color: #ffffff;
+    background-color: #ffff;
     padding: 10px;
     border-radius: 2px;
-    border: 1px solid #dadadf;
+    border: 1px solid #ffff;
 }
 
 .FillerImage {

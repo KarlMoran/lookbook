@@ -2,7 +2,7 @@
 
 LookBook is a social media platform design for Photographers to show case there portfolios. Here, users can find the latest photos from around the world, along with some learning on the way. We also invite users to interact with each other by sharing Photos of what that have captured and what inspirate them.
 
-The repository for the DRF-API associated with this project is available <a href="https://github.com/KarlMoran/DRF-P5" target="_blank">HERE.</a>The installation, set up, and deployment steps for this section of the project have also been included in the README linked to the DRF-API.
+The repository for the DRF-P5 associated with this project is available <a href="https://github.com/KarlMoran/DRF-P5" target="_blank">HERE.</a>The installation, set up, and deployment steps for this section of the project have also been included in the README linked to the DRF-P5.
 
 - DEPLOYED API HEROKU <a href="https://drf-lookbook.herokuapp.com/" target="_blank">LINK HERE</a>
 - DEPLOYED FRONTEND HEROKU LINK - LIVE SITE
@@ -50,6 +50,8 @@ The repository for the DRF-API associated with this project is available <a href
 ## Explore :camera:
 * The Explore page shows you your followers posts most recent photos
 
+<img width="1369" alt="Explore Page" src="https://user-images.githubusercontent.com/92300013/197777386-3b252c7f-df60-43ea-b1b8-04a6e7f435f8.png">
+
 <hr />
 
 ## Add post
@@ -92,3 +94,9 @@ them through a ADD button. Linking that button up to pst onto the Learn page.
 <img width="1406" alt="SignUp Page" src="https://user-images.githubusercontent.com/92300013/197499665-6dec9e8c-1bf5-4273-8edb-222c62baed93.png">
 
 <hr />
+
+## Page not found
+* When a user is dosnt follow a memeber they cant explore there page. 
+* A page not found is diplayed
+
+<img width="1369" alt="Page not found" src="https://user-images.githubusercontent.com/92300013/197777841-0bf444ab-3297-4196-9858-72195a8d8d73.png">

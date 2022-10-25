@@ -1,10 +1,10 @@
 .NavBar {
   background-color: #ffffff;
-  border: 1.5px solid #dadadf;
+  border: 2px solid #dadadf;
 }
 
 .NavLink {
-  padding: 5px;
+  padding:10px;
   text-decoration: none;
   color: #8a8a8c;
 }

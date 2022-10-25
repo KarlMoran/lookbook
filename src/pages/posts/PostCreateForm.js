@@ -118,12 +118,12 @@ function PostCreateForm() {
       ))}
       <br></br>
       <Button
-        className={`${btnStyles.Button} ${btnStyles.Blue}`}
+        className={`${btnStyles.Button} ${btnStyles.Black}`}
         onClick={() => histroy.goBack()}
       >
         cancel
       </Button>
-      <Button className={`${btnStyles.Button} ${btnStyles.Blue}`} type="submit">
+      <Button className={`${btnStyles.Button} ${btnStyles.Black}`} type="submit">
         create
       </Button>
     </div>
@@ -144,7 +144,7 @@ function PostCreateForm() {
                   </figure>
                   <div>
                     <Form.Label
-                      className={`${btnStyles.Button} ${btnStyles.Blue} btn`}
+                      className={`${btnStyles.Button} ${btnStyles.Black} btn`}
                       htmlFor="image-upload"
                     >
                       Change the image
