@@ -5,13 +5,13 @@ LookBook is a social media platform design for Photographers to show case there 
 The repository for the DRF-P5 associated with this project is available <a href="https://github.com/KarlMoran/DRF-P5" target="_blank">HERE.</a>The installation, set up, and deployment steps for this section of the project have also been included in the README linked to the DRF-P5.
 
 - DEPLOYED API HEROKU <a href="https://drf-lookbook.herokuapp.com/" target="_blank">LINK HERE</a>
-- DEPLOYED FRONTEND HEROKU LINK - LIVE SITE
+- DEPLOYED FRONTEND HEROKU LINK - <a href="https://lookbook-p5.herokuapp.com/" target="_blank">LIVE SITE</a>
 - DEPLOYED BACKEND GITHUB <a href="https://github.com/KarlMoran/DRF-P5" target="_blank">REPOSITORY HERE </a>
 
 
 <hr />
 
-<img width="1158" alt="responsive screen" src="https://user-images.githubusercontent.com/92300013/197200446-952a5766-6e3b-49a8-ad4f-c883445c37db.png">
+<img width="1235" alt="Responsive" src="https://user-images.githubusercontent.com/92300013/197788227-5cbf95b3-e4ad-4a77-a5b3-9f9882d4c664.png">
 
 <hr />
 
@@ -35,7 +35,7 @@ The repository for the DRF-P5 associated with this project is available <a href=
 * The page also includes a list off most popular portifollos, where you can see who is the most popular.
 * The SignIn / SignUp button will redirect user to the SignIn page / SignUp page if user don't have a account.
 
-<img width="1158" alt="Home Page" src="https://user-images.githubusercontent.com/92300013/197337956-fe8dc545-510d-465a-a332-6950e96686d9.png">
+<img width="1235" alt="Home Page" src="https://user-images.githubusercontent.com/92300013/197788504-3127677c-ab29-44a0-901a-f8db136e5e7a.png">
 
 <hr />
 
@@ -43,14 +43,14 @@ The repository for the DRF-P5 associated with this project is available <a href=
 * The About page gives you an insight into LookBook and what it is about. 
 * The About page is only visable when you are signedOut.
 
-<img width="1406" alt="About page" src="https://user-images.githubusercontent.com/92300013/197489887-0e1d7ada-8a64-4191-a3c8-ac2f08dfb2d5.png">
+<img width="1235" alt="About page" src="https://user-images.githubusercontent.com/92300013/197788688-08159558-430d-447d-b0df-0de4480786a4.png">
 
 <hr />
 
 ## Explore :camera:
 * The Explore page shows you your followers posts most recent photos
 
-<img width="1369" alt="Explore Page" src="https://user-images.githubusercontent.com/92300013/197777386-3b252c7f-df60-43ea-b1b8-04a6e7f435f8.png">
+<img width="1235" alt="Explore Page" src="https://user-images.githubusercontent.com/92300013/197788859-f19ae846-3a13-4345-946f-8e22eda864e8.png">
 
 <hr />
 
@@ -58,7 +58,7 @@ The repository for the DRF-P5 associated with this project is available <a href=
 * Add post allows user to post photos up to the wall.
 * Add post allows user to add a Title , Location and content to thier posts.
 
-<img width="1406" alt="Add post" src="https://user-images.githubusercontent.com/92300013/197493041-560f56c0-7d64-4bf5-9556-f2fa5ff79efc.png">
+<img width="1235" alt="Add Post" src="https://user-images.githubusercontent.com/92300013/197789015-c524896c-3a3c-43e0-addb-74434ac9f605.png">
 
 <hr />
 
@@ -75,7 +75,7 @@ The repository for the DRF-P5 associated with this project is available <a href=
 * I would have liked to added to the learn page by adding posts/learning material by uploading 
 them through a ADD button. Linking that button up to pst onto the Learn page. 
 
-<img width="1406" alt="Learn page" src="https://user-images.githubusercontent.com/92300013/197499301-a7fd3825-d75e-4961-bcd9-9e51fdd74e49.png">
+<img width="1398" alt="Learn Page" src="https://user-images.githubusercontent.com/92300013/197789545-f3e9615a-7f21-4bfd-a891-bc8667162fb9.png">
 
 <hr />
 
@@ -84,14 +84,15 @@ them through a ADD button. Linking that button up to pst onto the Learn page.
 * A Username, Password and a confirmed Password is required to create an account.
 * If you already have an account you can link the SignIn link at top of page or at bottom
 
-<img width="1406" alt="SignUp Page" src="https://user-images.githubusercontent.com/92300013/197499665-6dec9e8c-1bf5-4273-8edb-222c62baed93.png">
+<img width="1251" alt="SignUp Page" src="https://user-images.githubusercontent.com/92300013/197789728-5d6fd906-3242-440f-852f-bac85a4711bd.png">
+
 
 <hr />
 
 ## SignIn page 
 * User that have an account can signIn by entering there details.
 
-<img width="1406" alt="SignUp Page" src="https://user-images.githubusercontent.com/92300013/197499665-6dec9e8c-1bf5-4273-8edb-222c62baed93.png">
+<img width="1251" alt="SignIn Page" src="https://user-images.githubusercontent.com/92300013/197789908-3827664c-0eed-457d-84b0-5b8f9c9db98a.png">
 
 <hr />
 
@@ -99,4 +100,4 @@ them through a ADD button. Linking that button up to pst onto the Learn page.
 * When a user is dosnt follow a memeber they cant explore there page. 
 * A page not found is diplayed
 
-<img width="1369" alt="Page not found" src="https://user-images.githubusercontent.com/92300013/197777841-0bf444ab-3297-4196-9858-72195a8d8d73.png">
+<img width="1426" alt="Page Not found" src="https://user-images.githubusercontent.com/92300013/197790509-5403d130-e26f-4023-87a5-f285dc3d5f9d.png">
