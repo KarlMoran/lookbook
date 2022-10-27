@@ -15,6 +15,14 @@ The repository for the DRF-P5 associated with this project is available <a href=
 
 <hr />
 
+# Design
+
+* Wireframe & site Navigation: <a href="https://lucid.app/lucidspark/ea3bd373-48d5-4da0-b747-43a0e3fb0836/edit?invitationId=inv_a7897dd7-7fdc-4bb7-abaa-c008c791075e#" target="_blank">Click Here</a>
+
+* Colour Sheme:
+
+<img width="1235" height="600" alt="Responsive" src="https://user-images.githubusercontent.com/92300013/198280833-ef72cadd-203b-4f25-8c48-1872a20d9a06.png">
+
 # Features
 
 ## Navigation Bar
@@ -101,3 +109,97 @@ them through a ADD button. Linking that button up to pst onto the Learn page.
 * A page not found is diplayed
 
 <img width="1426" alt="Page Not found" src="https://user-images.githubusercontent.com/92300013/197790509-5403d130-e26f-4023-87a5-f285dc3d5f9d.png">
+
+## Features Left to Implement:
+* would have like to made the learn page better by adding in cards. Cards you click that bring you to a new page.
+each card would have a different lesson on them. 
+
+# Testing
+## Manual Testing:
+
+500 server error 
+* Resolved with the aid of tutor support. All database migrations for backend apps needed to be remigrated.
+
+* CRUD functionality has been tested for each of the following: Posts | Explore  | Comments | Likes | Follow | Profile
+* Likes & Follow may only be created & deleted
+* Profile may only be updated
+* All nav links open to the correct page.
+* All external links open to a new browser window.
+* Pages intended for logged-in users only will redirect logged-out users back to the home page.
+* Users attempting to edit content that they did not publish are redirected back to the home page.
+* Users are able to create a new account.
+* Users with an existing account are able to log in.
+* Each user has the ability to log out.
+
+## Validator Testing
+
+* CSS files pass through the Jigsaw validator with some issues found - <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flookbook-p5.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#errors" target="_blank">Click  Here </a>
+
+* 15 parse error where found. 
+
+* The page has an excellent Accessibility rating in Lighthouse:
+<img width="519" alt="LightHouse" src="https://user-images.githubusercontent.com/92300013/198289617-dbf5c93b-2e5d-461f-927c-0e9dbfce2665.png">
+
+* Tested the site opens in Chrome, Safari & on a mobile device without issues.
+* All social links open to external pages as intended.
+
+## Technologies Used
+Main Languages Used
+* HTML5
+* CSS3
+* Javascript
+* Python
+* SQL - Postgres
+
+## Frameworks, Libraries & Programs Used
+* Google Fonts : For the site fonts.
+* Font Awesome : To add icons to the social links in the footer & navigation sections.
+* GitPod : To build the project & create the JSX & CSS files before pushing the project to Github.
+* GitHub : To store my repository for submission.
+* lucid. : Was used to create mockups of the project prior to starting.
+* Am I Responsive? : To ensure the project looked good across all devices.
+* Favicon : To provide the code & image for the icon in the tab bar.
+* Django : Used to build the backend database that serves as an API for the front-end project.
+* React-Bootstrap : The styling library that has aided to the layout of the site, and which was introduced to us during the course of the program.
+* ReactJS : To build the components that would collectively form the front-end application.
+
+# Deployment
+
+The site was deployed to Heroku. The steps to deploy are as follows:
+
+1. Launch the gitpod workspace.
+2. Install ReactJS:
+
+- npx create-react-app . --use-npm
+- npm start
+
+3. Install the following packages using the command npm install:
+
+- react-bootstrap@1.6.3 bootstrap@4.6.0
+- react-router-dom@5.3.0
+- axios
+- react-infinite-scroll-component
+- msw --save-dev
+- jwt-decode
+- -g eslint
+
+3. Git add, commit, and push changes to gitpod.
+4. Create the project app on Heroku, and link the GitHub repository by navigating to the 'Deploy' tab.
+
+## Connecting to the API:
+
+1. Navigated to the Heroku app of the project DRF-API, and under the Settings tab, added the following configvars:
+*  Key: CLIENT_ORIGIN | Value: https://react-app-name.herokuapp.com
+*  Key: CLIENT_ORIGIN_DEV | Value: https://gitpod-browser-link.ws-eu54.gitpod.io
+2. Check that the trailing slash \ at the end of both links has been removed, and save the configvar pairs.
+3. Install the Axios package, & create supporting axiosDefaults.js as shown in<a href="https://github.com/Code-Institute-Solutions/moments/blob/cf955d2f2e6f70f61c92d1f9de85558d8e49f3a8/src/api/axiosDefaults.js" target="_blank"> Moments Walkthrough.</a>
+
+
+## Deploy to Heroku:
+
+1. In the scripts section of package.json in gitpod, added the following command:
+"heroku-prebuild": "npm install -g serve",
+2. Add Procfile to project root & populate with the following:
+web: serve -s build
+3. Repeat the steps of git add/commit/push.
+4. Deploy the project via the deploy button on Heroku.
