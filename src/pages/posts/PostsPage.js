@@ -29,8 +29,6 @@ function PostsPage({ message, filter = "" }) {
   const [query, setQuery] = useState("");
   const currentUser = useCurrentUser();
 
- console.log(posts, "<==posts")
-
   useEffect(() => {
     const fetchPosts = async () => {
       try {
