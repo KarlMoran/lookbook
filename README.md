@@ -110,15 +110,29 @@ them through a ADD button. Linking that button up to pst onto the Learn page.
 
 <img width="1426" alt="Page Not found" src="https://user-images.githubusercontent.com/92300013/197790509-5403d130-e26f-4023-87a5-f285dc3d5f9d.png">
 
+<hr />
+
+## Followers
+
+<img width="395" alt="Followers" src="https://user-images.githubusercontent.com/92300013/198294104-76f06f90-c137-4f90-94ab-1bb6efb07aba.png">
+
+<hr />
+
+## Profile Page 
+* Shows the number of followers & following
+
+<img width="1211" alt="Profile Page" src="https://user-images.githubusercontent.com/92300013/198294336-41ac58f4-1a1e-4e39-99c3-a325dc51ac6c.png">
+
+<hr />
+
 ## Features Left to Implement:
 * would have like to made the learn page better by adding in cards. Cards you click that bring you to a new page.
 each card would have a different lesson on them. 
 
+<hr />
+
 # Testing
 ## Manual Testing:
-
-500 server error 
-* Resolved with the aid of tutor support. All database migrations for backend apps needed to be remigrated.
 
 * CRUD functionality has been tested for each of the following: Posts | Explore  | Comments | Likes | Follow | Profile
 * Likes & Follow may only be created & deleted
@@ -131,6 +145,16 @@ each card would have a different lesson on them.
 * Users with an existing account are able to log in.
 * Each user has the ability to log out.
 
+<hr />
+
+## Errors
+* 500 Opertaional error - Resolved with the aid of tutor support. All database migrations for backend apps needed to be remigrated.
+* My alignment wasn't working on pages. mr cahnged to ms 
+* Had issues with my pages not showing up the right material. Simple problem didnt have most recent backend project deployed.
+* front Awsome wasn't wokring right, delelted kit code and added new one in. 
+
+<hr />
+
 ## Validator Testing
 
 * CSS files pass through the Jigsaw validator with some issues found - <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flookbook-p5.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#errors" target="_blank">Click  Here </a>
@@ -138,10 +162,13 @@ each card would have a different lesson on them.
 * 15 parse error where found. 
 
 * The page has an excellent Accessibility rating in Lighthouse:
+
 <img width="519" alt="LightHouse" src="https://user-images.githubusercontent.com/92300013/198289617-dbf5c93b-2e5d-461f-927c-0e9dbfce2665.png">
 
 * Tested the site opens in Chrome, Safari & on a mobile device without issues.
 * All social links open to external pages as intended.
+
+<hr />
 
 ## Technologies Used
 Main Languages Used
@@ -150,6 +177,8 @@ Main Languages Used
 * Javascript
 * Python
 * SQL - Postgres
+
+<hr />
 
 ## Frameworks, Libraries & Programs Used
 * Google Fonts : For the site fonts.
@@ -162,6 +191,8 @@ Main Languages Used
 * Django : Used to build the backend database that serves as an API for the front-end project.
 * React-Bootstrap : The styling library that has aided to the layout of the site, and which was introduced to us during the course of the program.
 * ReactJS : To build the components that would collectively form the front-end application.
+
+<hr />
 
 # Deployment
 
@@ -186,6 +217,8 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 3. Git add, commit, and push changes to gitpod.
 4. Create the project app on Heroku, and link the GitHub repository by navigating to the 'Deploy' tab.
 
+<hr />
+
 ## Connecting to the API:
 
 1. Navigated to the Heroku app of the project DRF-API, and under the Settings tab, added the following configvars:
@@ -194,6 +227,7 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 2. Check that the trailing slash \ at the end of both links has been removed, and save the configvar pairs.
 3. Install the Axios package, & create supporting axiosDefaults.js as shown in<a href="https://github.com/Code-Institute-Solutions/moments/blob/cf955d2f2e6f70f61c92d1f9de85558d8e49f3a8/src/api/axiosDefaults.js" target="_blank"> Moments Walkthrough.</a>
 
+<hr />
 
 ## Deploy to Heroku:
 
