@@ -4,8 +4,8 @@ LookBook is a social media platform design for Photographers to show case there 
 
 The repository for the DRF-P5 associated with this project is available <a href="https://github.com/KarlMoran/DRF-P5" target="_blank">HERE.</a>The installation, set up, and deployment steps for this section of the project have also been included in the README linked to the DRF-P5.
 
-- DEPLOYED API HEROKU <a href="https://drf-lookbook.herokuapp.com/" target="_blank">LINK HERE</a>
-- DEPLOYED FRONTEND HEROKU LINK - <a href="https://lookbook-p5.herokuapp.com/" target="_blank">LIVE SITE</a>
+- DEPLOYED API HEROKU <a href="https://drf-p5.onrender.com/" target="_blank">LINK HERE</a>
+- DEPLOYED FRONTEND LINK - <a href="https://lookbook.onrender.com/" target="_blank">LIVE SITE</a>
 - DEPLOYED BACKEND GITHUB <a href="https://github.com/KarlMoran/DRF-P5" target="_blank">REPOSITORY HERE </a>
 
 
